@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1595691229 source:c:\users\mohamed\desktop\sock merchant\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<vector>
+
