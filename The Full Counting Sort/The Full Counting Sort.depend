@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1625075558 source:c:\users\mohamed\desktop\the full counting sort\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<utility>
+
