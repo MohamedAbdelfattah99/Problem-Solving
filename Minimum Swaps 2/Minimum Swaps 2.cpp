@@ -2,9 +2,7 @@
 #include <vector>
 using namespace std;
 
-vector<string> split_string(string);
 
-// Complete the minimumSwaps function below.
 int minimumSwaps(vector<int> arr,int n) {
     int counter=0;
     for(int i=0;i<n;i++){
