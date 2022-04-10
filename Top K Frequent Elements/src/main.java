@@ -33,7 +33,6 @@ public class main {
 		x++;
 }
 
-		System.out.println(output[0]+" "+output[1]);
 	}
 
 }
