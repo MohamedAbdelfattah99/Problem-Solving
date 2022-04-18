@@ -8,13 +8,10 @@ import java.util.PriorityQueue;
 public class main {
 
 	public static void main(String[] args) {
-		int k=2;
-		int freq[]=new int[1000000];
-		int output[]=new int[k];
+	int output[]=new int[k];
 		for (int i =0 ;i<freq.length;i++) {
 			freq[i]=0;
 		}
-		int nums[]= {4,1,-1,2,-1,2,3};
 				
 	HashMap<Integer,Integer>map=new HashMap<Integer, Integer>();
 	
@@ -33,7 +30,6 @@ public class main {
 		x++;
 }
 
-		System.out.println(output[0]+" "+output[1]);
 	}
 
 }
