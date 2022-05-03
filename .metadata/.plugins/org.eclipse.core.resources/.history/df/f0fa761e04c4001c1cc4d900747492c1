@@ -1,0 +1,42 @@
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+
+public class main {
+	
+    public static List<List<String>> groupAnagrams(String[] strs) {
+    	int i=0;
+    	HashMap<String ,Integer> map=new HashMap<String,Integer>();
+        	for(String s:strs) {
+        		char[] chars = s.toCharArray();
+        		Arrays.sort(chars);
+        		String temp=new String (chars);
+        		// System.out.println(chars);
+        //		System.out.println(temp);
+        		if(map.get(temp) != null) {
+        			
+        		System.out.println(s);
+        		}
+        		else{
+        		//	System.out.println("sad");
+        			map.put(temp, i);
+        			}
+        		i++;
+        		//}
+        	//for( int x=0;x<i;x++) {
+        
+     
+        	}
+    	return null;
+    }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String arr[]={"eat","tea","tan","ate","nat","bat"};
+		List<List<String>>outpt=new ArrayList<List<String>>();
+		outpt=groupAnagrams(arr);
+	}
+
+}
